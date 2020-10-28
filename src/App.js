@@ -1,10 +1,13 @@
 import React from 'react'
+// import React from 'react';
+import Route from './Route.js'
 import './App.css';
+
 
 function App() {
   return (
     <div>
-       <h1>Hello World</h1>
+      <Route />
     </div>
   );
 }
