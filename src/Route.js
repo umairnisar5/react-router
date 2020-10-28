@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './Components/NavBar'; 
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,6 +15,7 @@ function RouteConfig() {
   return (
     <div>
 <Router>
+<NavBar/>
     <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/About" component={About}/>
