@@ -15,9 +15,9 @@ function RouteConfig() {
     <div>
 <Router>
     <Switch>
-        <Route path="/" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route path="/About" component={About}/>
-        <Route path="/Product" component={Product}/>
+        <Route exact path="/Product" component={Product}/>
         <Route path="/Product/:id" component={Productitem}/>
 
 
