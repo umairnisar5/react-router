@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import Shoes from './../shoes.json';
 
 
@@ -10,10 +12,10 @@ function Product() {
        <div className="productContainer">
          {Object.keys(Shoes).map(keyName =>{
            const shoe = Shoes[keyName];
-           return ( <div key={keyName}> 
+           return ( <Link key={keyName}> 
            <h2>{shoe.name}</h2>
            <img src={shoe.img} height={150} />
-           </div> )
+           </Link> )
          })}
        </div>
     </div>

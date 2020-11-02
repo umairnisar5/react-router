@@ -4,12 +4,11 @@
 .productContainer {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .productContainer > div {
   align-items: center;
-  max-width:300;
+  max-width:300 px;
   box-shadow:  0 0  10px lightgreen ;
   margin: 10px;
 }
