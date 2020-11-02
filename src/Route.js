@@ -21,7 +21,7 @@ function RouteConfig() {
         <Route path="/About" component={About}/>
         <Route exact path="/Product" component={Product}/>
         <Route path="/Product/:id" component={Productitem}/>
-
+        <Route path="*" component={() => <h2>404 Not Found</h2> }/>
 
     </Switch>
 </Router>     
