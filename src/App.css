@@ -1,20 +1,19 @@
-.body {
+body{
   text-align: center;
 }
+
+
 .productContainer {
   display: flex;
   flex-wrap: wrap;
 }
-
-.productContainer > div {
-  align-items: center;
-  max-width:300 px;
-  box-shadow:  0 0  10px lightgreen ;
+.productContainer > .link {
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px #463636;
   margin: 10px;
 }
 
-.productContainer > div :hover {
-  background-color: lightgrey;
-  
+.productContainer > .link:hover {
+  background-color: lightgray;
 }
-
