@@ -1,6 +1,11 @@
 body{
   text-align: center;
+  background-image: url("https://image.shutterstock.com/image-photo/blurred-image-shoes-store-shopping-260nw-309285191.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
+
+
 
 
 .productContainer {
